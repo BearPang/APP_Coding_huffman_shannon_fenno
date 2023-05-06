@@ -1,0 +1,157 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration file="C:\Users\LEGION\Documents\MATLAB\study_and_practice\study_coding_gui\huffman_fenno_shannon_coding.prj" location="C:\Users\LEGION\Documents\MATLAB\study_and_practice\study_coding_gui" name="huffman_fenno_shannon_coding" target="target.ezdeploy.standalone" target-name="Application Compiler">
+    <param.appname>huffman_fenno_shannon_coding</param.appname>
+    <param.icon>${PROJECT_ROOT}\huffman_fenno_shannon_coding_resources\icon.ico</param.icon>
+    <param.icons>
+      <file>${PROJECT_ROOT}\huffman_fenno_shannon_coding_resources\icon_48.png</file>
+      <file>${PROJECT_ROOT}\huffman_fenno_shannon_coding_resources\icon_32.png</file>
+      <file>${PROJECT_ROOT}\huffman_fenno_shannon_coding_resources\icon_24.png</file>
+      <file>${PROJECT_ROOT}\huffman_fenno_shannon_coding_resources\icon_16.png</file>
+    </param.icons>
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Yuhang Pang</param.authnamewatermark>
+    <param.email>740126973.@qq.com</param.email>
+    <param.company>None</param.company>
+    <param.summary />
+    <param.description>This is a coding APP for Huffman,Fenno,Shannon</param.description>
+    <param.screenshot>C:\Users\LEGION\OneDrive\图片\本机照片\低清晰度版.png</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\None\huffman_fenno_shannon_coding\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.target.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\huffman_fenno_shannon_coding\for_testing</param.intermediate>
+    <param.files.only>${PROJECT_ROOT}\huffman_fenno_shannon_coding\for_redistribution_files_only</param.files.only>
+    <param.output>${PROJECT_ROOT}\huffman_fenno_shannon_coding\for_redistribution</param.output>
+    <param.logdir>${PROJECT_ROOT}\huffman_fenno_shannon_coding</param.logdir>
+    <param.enable.clean.build>false</param.enable.clean.build>
+    <param.user.defined.mcr.options />
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <param.native.matlab>false</param.native.matlab>
+    <param.checkbox>false</param.checkbox>
+    <param.example />
+    <param.help.text>Syntax 
+	  -? 
+	 
+ Input Arguments 
+	 -?  print help on how to use the application 
+	 input arguments</param.help.text>
+    <unset>
+      <param.version />
+      <param.summary />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.target.install.notes />
+      <param.intermediate />
+      <param.files.only />
+      <param.output />
+      <param.logdir />
+      <param.enable.clean.build />
+      <param.user.defined.mcr.options />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+      <param.native.matlab />
+      <param.checkbox />
+      <param.example />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\huffman_fenno_shannon_coding.mlapp</file>
+    </fileset.main>
+    <fileset.resources />
+    <fileset.package />
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\check_p.m</file>
+      <file>${PROJECT_ROOT}\coding_efficiency_indicators.m</file>
+      <file>${PROJECT_ROOT}\compress_pp.m</file>
+      <file>${PROJECT_ROOT}\dec2bin_0_1.m</file>
+      <file>${PROJECT_ROOT}\Fenno_coding.m</file>
+      <file>${PROJECT_ROOT}\first_compress.m</file>
+      <file>${PROJECT_ROOT}\Huffman_coding.m</file>
+      <file>${PROJECT_ROOT}\p_symbol_sequence.m</file>
+      <file>${PROJECT_ROOT}\Shannon_coding.m</file>
+    </fileset.depfun>
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\huffman_fenno_shannon_coding\for_testing" name="splash.png" optional="false">C:\Users\LEGION\Documents\MATLAB\study_and_practice\study_coding_gui\huffman_fenno_shannon_coding\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\huffman_fenno_shannon_coding\for_testing" name="readme.txt" optional="true">C:\Users\LEGION\Documents\MATLAB\study_and_practice\study_coding_gui\huffman_fenno_shannon_coding\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\huffman_fenno_shannon_coding\for_testing" name="huffman_fenno_shannon_coding.exe" optional="false">C:\Users\LEGION\Documents\MATLAB\study_and_practice\study_coding_gui\huffman_fenno_shannon_coding\for_testing\huffman_fenno_shannon_coding.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>D:\Program Files\MATLAB\R2022b</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+        <toolbox name="embeddedcoder" />
+        <toolbox name="gpucoder" />
+        <toolbox name="fixedpoint" />
+        <toolbox name="matlabhdlcoder" />
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+      <toolbox>
+        <embeddedcoder>
+          <enabled>true</enabled>
+        </embeddedcoder>
+      </toolbox>
+      <toolbox>
+        <gpucoder>
+          <enabled>true</enabled>
+        </gpucoder>
+      </toolbox>
+      <toolbox>
+        <fixedpoint>
+          <enabled>true</enabled>
+        </fixedpoint>
+      </toolbox>
+      <toolbox>
+        <matlabhdlcoder>
+          <enabled>true</enabled>
+        </matlabhdlcoder>
+      </toolbox>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
